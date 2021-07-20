@@ -1,0 +1,43 @@
+/* General Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor0: #F2C0A2;
+    --cor1: #8C8577;
+    --cor02: #B5AC8D;
+    --cor03: #8C2B4F;
+    --cor04: #591C32;
+}
+
+body {
+    background: linear-gradient(25deg, var(--cor03) 50%, var(--cor04)50%);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Main */
+
+#main {
+    width: 50%;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    font-weight: thin;
+    font-size: 3rem;
+}
+
+ul {
+    list-style-position: inside;
+}
